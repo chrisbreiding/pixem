@@ -1,0 +1,6 @@
+{
+  "extends": [
+    "plugin:crb/general",
+    "plugin:crb/react"
+  ]
+}

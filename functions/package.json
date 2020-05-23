@@ -1,0 +1,25 @@
+{
+  "name": "pixem-functions",
+  "description": "Functions for Pix'em",
+  "scripts": {
+    "lint": "echo 'Skipping linting for now'",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "8"
+  },
+  "dependencies": {
+    "debug": "^4.1.1",
+    "firebase-admin": "^8.12.1",
+    "firebase-functions": "^3.6.1",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.1"
+  },
+  "private": true
+}
